@@ -44,7 +44,7 @@ export default function Page() {
                   }`}
               >
                 {/* {message.role === "user" ? "User: " : "AI: "} */}
-                {message.role === "user" ? " " : "AI: "}
+                {message.role === "user" ? " " : " "}
                 <p
                   className={`inline-block p-2 rounded-lg ${
                     message?.role === "assistant" ? "bg-blue-300" : "bg-slate-100"
